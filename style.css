@@ -111,6 +111,7 @@ nav button {
     background: transparent;
     border-style: solid;
     border-color: gray;
+    width: 350px;
     ::placeholder {
         color: white;
         opacity: 1;
@@ -153,4 +154,119 @@ nav button {
     font-size: large;
     color: white;
     
+}
+.first {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+    max-width: 100vw;
+    margin: auto;
+    text-align: center;
+    text-align: left;
+    padding: 50px;
+    align-items: center;
+}
+.section {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+}
+.secimg img {
+   width: 30vw;
+   position: relative;
+   z-index: 10;
+
+}
+.secimg video {
+    position: absolute;
+    top: 1210px;
+    right: 445px;
+}
+section.first > div :first-child {
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+section.first > div :nth-child(2) {
+    font-size: 24px;
+
+}
+.seperation1 {
+    height: 8px;
+    background-color: gray;
+}
+.third .secimg video {
+    position: absolute;
+    top: 2473px;
+    right: 510px;
+}
+.faq {
+    background-color: black;
+    color: white;
+    padding: 80px;
+}
+.faq h2 {
+    font-size: 60px;
+    text-align: center;
+    padding: 35px;
+}
+.faqbox:hover { 
+    background-color: #414141;
+
+}
+.faqbox svg {
+    filter: invert(1);
+}
+.faqbox {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 30px;
+    display: flex;
+    max-width: 60vw;
+    font-size: 30px;
+    justify-content: space-between;
+    margin: 34px auto;
+    cursor: pointer;
+    transition: all 0.5s ease-out ;
+}
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+    font-size: 20px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+}
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
